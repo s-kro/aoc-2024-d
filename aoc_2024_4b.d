@@ -4,7 +4,6 @@
 
 import std.stdio;
 import std.conv;
-import std.algorithm;
 import std.array;
 
 void main() {
@@ -16,7 +15,6 @@ void main() {
   f.close();
 
   int fw = 0; // found words
-  size_t w = grid[].length - 1;
   
   foreach (i; 1 .. grid.length - 1) {
     foreach (j; 1 .. grid[i].length - 1) {
